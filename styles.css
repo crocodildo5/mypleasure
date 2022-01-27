@@ -1,0 +1,32 @@
+body{
+    background-image:url("dora-kaliningrad.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.message{
+    color:darkgreen;
+    background-color: skyblue;
+    border:1px solid lightslategrey;
+    margin:15px;
+    padding:15px;
+}
+
+#dora{
+    background-color:#F6BD9E ;
+    color:#E02B55 ;
+    border:3px solid #0C263D;
+    border-radius:10px ;
+    padding:15px;
+    margin:10px;
+    opacity:0.5;
+    box-shadow: -9px 5px 15px white;
+    transform: scale(0.5);
+    transition: 3s all;
+}
+
+#dora:hover{
+    transform: rotate(45deg);
+    color:black;
+    background-color:whitesmoke;
+}
